@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 高度宽度 -->
+    <!-- titleviewpager start -->
+    <dimen name="viewpager_title_height">49dp</dimen>
+    <dimen name="viewpager_title_height_change">64dp</dimen>
+    <dimen name="viewpager_title_height_change_icon">48dp</dimen>
+    <dimen name="viewpager_title_margin_change_t">5dp</dimen>
+    <dimen name="viewpager_title_margin_change_b">6dp</dimen>
+    <dimen name="viewpager_title_height2">44dp</dimen>
+    <dimen name="viewpager_titleimg_height">22dp</dimen>
+    <dimen name="viewpager_titleimg_width">22dp</dimen>
+    <dimen name="viewpager_title_margintop">3dp</dimen>
+    <dimen name="new_message_size_8dp">8dp</dimen>
+</resources>

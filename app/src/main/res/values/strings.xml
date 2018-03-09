@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">XzkjProject</string>
+    <string name="hello_world">你好</string>
+    <string name="loan_text">借款</string>
+    <string name="repayment_text">还款</string>
+    <string name="my_text">我的</string>
+    <string-array name="home_text_arr">
+        <item>借款</item>
+        <item>还款</item>
+        <item>我的</item>
+    </string-array>
+</resources>

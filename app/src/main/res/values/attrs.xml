@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <declare-styleable name="CusUnderlinePageIndicator">
+
+        <!-- Whether or not the selected indicator fades. -->
+        <attr name="fades" format="boolean" />
+        <!-- Length of the delay to fade the indicator. -->
+        <attr name="fadeDelay" format="integer" />
+        <!-- Length of the indicator fade to transparent. -->
+        <attr name="fadeLength" format="integer" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+    <declare-styleable name="CusViewPagerIndicator">
+
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+        <!-- Style of the icon indicator's views. -->
+        <attr name="vpiIconPageIndicatorStyle" format="reference" />
+        <!-- Style of the line indicator. -->
+        <attr name="vpiLinePageIndicatorStyle" format="reference" />
+        <!-- Style of the title indicator. -->
+        <attr name="vpiTitlePageIndicatorStyle" format="reference" />
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference" />
+        <!-- Style of the underline indicator. -->
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+    </declare-styleable>
+    <!--圆角imageview-->
+    <declare-styleable name="SelectableRoundedImageView">
+        <attr name="sriv_left_top_corner_radius" format="dimension" />
+        <attr name="sriv_right_top_corner_radius" format="dimension" />
+        <attr name="sriv_left_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_right_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_border_width" format="dimension" />
+        <attr name="sriv_border_color" format="color" />
+        <attr name="sriv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+    <!--认证中心进度条-->
+    <declare-styleable name="SaundProgressBar">
+        <attr name="progressIndicator" format="reference" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColors" format="reference|color" />
+        <attr name="textStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="textAlign">
+            <flag name="left" value="0" />
+            <flag name="center" value="1" />
+            <flag name="right" value="2" />
+        </attr>
+        <attr name="offset" format="dimension" />
+    </declare-styleable>
+
+</resources>
